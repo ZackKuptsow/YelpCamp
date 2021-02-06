@@ -104,10 +104,11 @@ const connectSrcUrls = [
 	'https://events.mapbox.com/'
 ];
 const fontSrcUrls = ['https://kups-yelpcamp.herokuapp.com/keepersecret.woff'];
+const defaultSrcUrls = ['https://kups-yelpcamp.herokuapp.com/'];
 app.use(
 	helmet.contentSecurityPolicy({
 		directives: {
-			defaultSrc: [],
+			defaultSrc: ["'sellf'", ...defaultSrcUrls],
 			connectSrc: ["'self'", ...connectSrcUrls],
 			scriptSrc: ["'unsafe-inline'", "'self'", ...scriptSrcUrls],
 			styleSrc: ["'self'", "'unsafe-inline'", ...styleSrcUrls],
