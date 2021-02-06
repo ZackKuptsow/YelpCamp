@@ -103,7 +103,7 @@ const connectSrcUrls = [
 	'https://b.tiles.mapbox.com/',
 	'https://events.mapbox.com/'
 ];
-const fontSrcUrls = ['https://kups-yelpcamp.herokuapp.com/'];
+const fontSrcUrls = ['https://kups-yelpcamp.herokuapp.com/keepersecret.woff'];
 app.use(
 	helmet.contentSecurityPolicy({
 		directives: {
