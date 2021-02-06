@@ -108,7 +108,7 @@ const defaultSrcUrls = ['https://kups-yelpcamp.herokuapp.com/'];
 app.use(
 	helmet.contentSecurityPolicy({
 		directives: {
-			defaultSrc: ["'sellf'", ...defaultSrcUrls],
+			defaultSrc: ["'self'", ...defaultSrcUrls],
 			connectSrc: ["'self'", ...connectSrcUrls],
 			scriptSrc: ["'unsafe-inline'", "'self'", ...scriptSrcUrls],
 			styleSrc: ["'self'", "'unsafe-inline'", ...styleSrcUrls],
