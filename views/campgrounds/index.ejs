@@ -9,8 +9,7 @@
             <% if(campground.images.length) { %>
             <img class="img-fluid" src="<%= campground.images[0].url %>" alt="">
             <% } else { %>
-            <img class="img-fluid"
-                src="https://soilhealthinstitute.org/wp-content/uploads/2016/11/thumbnail-default.jpg" alt="">
+            <img class="img-fluid" src="/images/default.jpg" alt="">
             <% } %>
         </div>
         <div class="col-md-8">
@@ -27,8 +26,8 @@
 
 <script>
     const mapToken = '<%-process.env.MAPBOX_TOKEN%>';
-    let campgrounds = {
-        features: '<%- JSON.stringify(campgrounds) %>'
+    const campgrounds = {
+        features: <%- JSON.stringify(campgrounds) %>
     };
 </script>
 
