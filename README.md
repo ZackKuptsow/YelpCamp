@@ -5,6 +5,6 @@
 <br>I can honestly say I am a better developer and learned picked up a lot of tricks that I would have otherwise missed.
 <br>I do not take credit for the originality of the code, but I did make some edits to what was taught.</p>
 <h3>The site is hosted at the link below:</h3>
-<a href="www.kups-yelpcamp.herokuapp.com">YelpCamp</a>
+<a href="http://kups-yelpcamp.herokuapp.com">YelpCamp</a>
 <br>
 <h5>I have also launched <a href="http://kups.me">my own site</a> that I will be adding content to whenever I get the chance.</h3>
