@@ -7,4 +7,4 @@
 <h3>The site is hosted at the link below:</h3>
 <a href="www.kups-yelpcamp.herokuapp.com">YelpCamp</a>
 <br>
-<h5>I have also launched <a href="www.kups.me">my own site</a> that I will be adding content to whenever I get the chance.</h3>
+<h5>I have also launched <a href="http://kups.me">my own site</a> that I will be adding content to whenever I get the chance.</h3>
